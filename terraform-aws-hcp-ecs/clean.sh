@@ -1,4 +1,7 @@
 #!/bin/bash
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 
 cd apps && terraform destroy -auto-approve
 cd ../vault && terraform destroy -auto-approve

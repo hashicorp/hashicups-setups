@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 FROM hashicorpdemoapp/public-api:v0.0.7 as base
 
 FROM ubuntu:20.04

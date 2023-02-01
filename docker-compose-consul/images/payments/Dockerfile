@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 FROM hashicorpdemoapp/payments:v0.0.16 as base
 
 FROM ubuntu:20.04
