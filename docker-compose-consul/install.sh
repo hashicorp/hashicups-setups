@@ -1,4 +1,7 @@
 #!/bin/bash
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 
 # This is ensure sufficient time is provided for ACLs to replicate to the secondary Consul DC
 if [ $SECONDARY == true ]; then

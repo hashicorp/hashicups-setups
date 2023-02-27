@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 resource "hcp_consul_cluster_root_token" "cluster" {
   cluster_id = hcp_consul_cluster.consul.cluster_id
 }

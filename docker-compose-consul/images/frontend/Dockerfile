@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 FROM hashicorpdemoapp/frontend:v1.0.3 as builder
 
 FROM ubuntu:20.04
