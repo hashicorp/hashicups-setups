@@ -1,4 +1,7 @@
 #!/bin/bash
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 
 curl https://raw.githubusercontent.com/hashicorp-demoapp/product-api-go/v0.0.20/database/products.sql --output products.sql
 

@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 locals {
   boundary_creds_path = "${vault_mount.postgres.path}/creds/boundary"
 }

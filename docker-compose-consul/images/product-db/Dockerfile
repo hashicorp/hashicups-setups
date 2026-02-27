@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 FROM postgres:13
 
 ENV ENVOY_VERSION=1.20.1

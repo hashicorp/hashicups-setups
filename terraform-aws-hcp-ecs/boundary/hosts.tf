@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 resource "boundary_host_catalog" "ecs_nodes" {
   name        = "ecs_nodes"
   description = "ECS container instances for operations team"

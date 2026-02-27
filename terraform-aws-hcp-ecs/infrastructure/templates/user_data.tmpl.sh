@@ -1,4 +1,7 @@
 #!/bin/bash
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 
 cat <<'EOF' >> /etc/ecs/ecs.config
 ECS_ENABLE_AWSLOGS_EXECUTIONROLE_OVERRIDE=true

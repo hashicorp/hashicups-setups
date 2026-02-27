@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 module "boundary" {
   depends_on                   = [module.vpc]
   source                       = "joatmon08/boundary/aws"
